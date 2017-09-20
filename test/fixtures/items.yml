@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  envoice: one
+  product: one
+  amount: 1
+
+two:
+  envoice: two
+  product: two
+  amount: 1

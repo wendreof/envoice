@@ -28,6 +28,12 @@ class EnvoicesController < ApplicationController
 
     respond_to do |format|
       if @envoice.save
+        first = Product.first
+        last = Product.last
+
+        Item.create(envoice: @envoice, product: first,  amount: 10)
+        Item.create(envoice: @envoice, product: last, amount: 2)
+
         format.html { redirect_to @envoice, notice: 'Envoice was successfully created.' }
         format.json { render :show, status: :created, location: @envoice }
       else
