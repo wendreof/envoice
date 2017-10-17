@@ -2,10 +2,12 @@
 
 one:
   envoice: one
-  product: one
-  amount: 1
+  product: apple
+  amount: 2
+  product_price: 10
 
 two:
   envoice: two
-  product: two
-  amount: 1
+  product: apple
+  amount: 3
+  product_price: 30

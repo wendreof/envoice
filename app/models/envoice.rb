@@ -1,7 +1,9 @@
 class Envoice < ApplicationRecord
   belongs_to :customer
+  has_many :items
 
   def total
-    return 150  
+   self.items.map(&:total).inject(:+)
   end
-end
+
+end  

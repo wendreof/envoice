@@ -1,9 +1,7 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  name: MyString
-  cpf: MyString
-
-two:
-  name: MyString
-  cpf: MyString
+wendreo:
+  name: Wendreo Luciano Fernandes
+  cpf: 111.111.111-11
+  #envoice: one
+  
