@@ -4,10 +4,22 @@ one:
   envoice: one
   product: apple
   amount: 2
-  product_price: 10
+  product_price: 45 #mudar para 10?
 
 two:
+  envoice: one
+  product: apple #alterar aqui para orange?
+  amount: 3
+  product_price: 30
+
+three:
   envoice: two
   product: apple
+  amount: 2
+  product_price: 45 #mudar para 10?
+
+four:
+  envoice: two
+  product: apple #alterar aqui para orange?
   amount: 3
   product_price: 30
