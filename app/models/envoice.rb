@@ -3,7 +3,8 @@ class Envoice < ApplicationRecord
   has_many :items
 
   def total
-   self.items.map(&:total).inject(:+)
+    tot = self.items.map(&:total).inject(:+)
+   (self.tax * tot /100) + tot
   end
 
-end  
+end

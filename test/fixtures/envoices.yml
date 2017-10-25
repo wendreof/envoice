@@ -2,6 +2,4 @@
 
 one:
   customer: wendreo
-
-two:
-  customer: wendreo
+  tax: 1.50

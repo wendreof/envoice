@@ -4,22 +4,11 @@ one:
   envoice: one
   product: apple
   amount: 2
-  product_price: 10.50
+  product_price: 40.10
 
 two:
   envoice: one
   product: orange
-  amount: 3
-  product_price: 30
-
-three:
-  envoice: two
-  product: apple
   amount: 2
-  product_price: 10
+  product_price: 49.10
 
-four:
-  envoice: two
-  product: orange
-  amount: 3
-  product_price: 30
