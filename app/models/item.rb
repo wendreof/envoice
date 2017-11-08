@@ -7,7 +7,7 @@ class Item < ApplicationRecord
   before_save :set_product_price
 
   def total
-    return self.amount * self.product_price
+     self.amount * self.product_price
   end
 
   private

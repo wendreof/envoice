@@ -2,4 +2,6 @@
 
 one:
   customer: wendreo
-  tax: 1.50
+  tax: 0
+  payment_method_id: one
+  payment_method_value: 11
